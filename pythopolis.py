@@ -140,7 +140,7 @@ if __name__=="__main__":
 
 			world.draw(screen) # Draw screen
 
-		clock.tick(10) # 10 images per second
+		clock.tick(2) # 2 images per second
 		pygame.display.flip()  # pygame function
 
 	pygame.quit()
